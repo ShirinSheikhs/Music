@@ -1,0 +1,6 @@
+<?php
+namespace App\Repositories\Music;
+
+interface SongRepositoryInterFace {
+public function getSong($id);
+}
